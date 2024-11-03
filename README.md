@@ -1,2 +1,3 @@
 # sliderGallery
-Slider Gallery on JS
+Slider Gallery on JS.
+## How To Use?
