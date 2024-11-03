@@ -1,0 +1,72 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(130, 70, 11)
+}
+
+.gallery {
+    position: relative;
+    width: 80%;
+    max-width: 800px;
+    overflow: hidden;
+    background: rgb(233, 191, 152);
+    border: 2px solid #ccc;
+    border-radius: 20px;
+}
+
+.image-container {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.indicator {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.indicator span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    border-radius: 50%;
+    background: rgb(156, 122, 81);
+}
+
+.indicator span.active {
+    background: rgb(132, 42, 10);
+}
+/* настройка стиля кнопок */
+.button{ 
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    transition: 0.45s;
+}
+
+/* если кнопка не рабочая, то псевдостиль ховер не будет работать */
+.button:enabled:hover{
+    background-color: rgb(197, 125, 45);
+    cursor: pointer;
+}
+
+
+
