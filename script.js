@@ -4,11 +4,9 @@ $(document).ready(() => {
      * Добавление фотографий в галерею
      */
     const images = [
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYoVDqALvoJ-bQe3SXJoyb0K0CtnDoFZWyAg&s',
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2tq-P8h5UeAsqHlZ4RdQ28NfDdCHv7N-rHQ&s',
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSxWSk8l2owxF5ix5FmRdIfF-zLeLYNutVhg&s',
-        'https://img.freepik.com/free-photo/view-adorable-persian-domestic-cat_23-2151773881.jpg',
-        'https://натуралка.рф/files/products/517676504.800x600w.jpg?4fcb562f5f68b37faef6260850cf6c2f',
+        'https://media1.tenor.com/m/LNFqGmG-wIMAAAAC/tomorrow-%D0%B7%D0%B0%D0%B2%D1%82%D1%80%D0%B0.gif',
+        'https://media1.tenor.com/m/UMqiOqWh0moAAAAC/elephant-green.gif',
+        'https://media1.tenor.com/m/iche4ijyDRUAAAAd/bayan.gif',
 
     ]; // не зависит от кол-ва слайдов, можно добавлять до бесконечности
     
